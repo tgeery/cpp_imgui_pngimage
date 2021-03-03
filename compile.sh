@@ -1,0 +1,1 @@
+g++ -Iimgui -Iimgui/backends -Istb main.cpp imgui/imgui.cpp imgui/imgui_widgets.cpp imgui/imgui_draw.cpp imgui/imgui_tables.cpp imgui/backends/imgui_impl_glut.cpp imgui/backends/imgui_impl_opengl2.cpp -lglut -lGL
